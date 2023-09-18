@@ -1,18 +1,8 @@
 <html>
   <title>佐藤家結婚披露パーティ席次</title>
   <body>
-    <style>
-      embed-pdf {
-        display: block;
-        width: 75%;
-        max-width: 700px;
-        height: min(60vw, 75vh);
-        margin: 2em;
-      }
-    </style>
-    <script src="https://deno.land/x/embed_pdf@v1.3.0/mod.js" type="module"></script>
-     Object.defineProperty(globalThis.navigator, "pdfViewerEnabled", { value: false });
-    <embed-pdf src="./wedding-sheat.pdf"></embed-pdf>
-    document.body.insertAdjacentHTML("beforeend", html);
+    <script>
+      window.location.href('https://masamichisato0120.github.io/wedding-sheat.io/pdfjs-3.10.111-dist/web/viewer.html?file=wedding-sheat.pdf')
+    </script>
   </body>
 </html>
